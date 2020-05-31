@@ -4415,7 +4415,19 @@ input[type=button].btn-block {
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
+.map {
+  height: 30rem;
+}
 
+@media (max-width: 992px) {
+  .map {
+    height: 75%;
+  }
+}
+
+.map iframe {
+  pointer-events: none;
+}
 .card {
   position: relative;
   display: flex;
